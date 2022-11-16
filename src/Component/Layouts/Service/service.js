@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Axios from '../../../axios'
 import ServiceItem from './ServiceItem'
 import servicePageData from '../../../Model/ServicePageData'
+import Lottie from 'react-lottie';
+import animationData from './99312-developer-skills.json';
 
 export default function Service() {
     const [serviceData, setService] = useState([])
@@ -19,6 +21,14 @@ export default function Service() {
         fetchData()
     }, [])
 
+    const defaultOptions = {
+        loop: true,
+        autoplay: true,
+        animationData: animationData,
+        rendererSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
     return (
         <section id='home-service-section'>
             <div className='service-block'>
@@ -32,21 +42,26 @@ export default function Service() {
                         <div className='row'>
                             <div className='col-md-7'>
                                 <div className='service-left-icon'>
-                                    <img
+                                    <Lottie
+                                        options={defaultOptions}
+                                        height={500}
+                                        width={500}
+                                    />
+                                    {/* <img
                                         src='/pvportfolio/Photos/service.png'
                                         alt='service image'
                                         className='img-fluid'
-                                    />
-                                    <div className='serviceIcon'>Icons made by
+                                    /> */}
+                                    <div className='serviceIcon'>Lottie file made by
                                         <a
-                                            href='https://www.flaticon.com/authors/itim2101'
-                                            title='itim2101'
-                                        >itim2101</a>
+                                            href='https://lottiefiles.com/99312-developer-skills'
+                                            title='Derek'
+                                        >Derek-  developer-skills Anim</a>
                                         from
                                         <a
-                                            href='https://www.flaticon.com/'
-                                            title='Flaticon'
-                                        >www.flaticon.com</a></div>
+                                            href='https://lottiefiles.com/'
+                                            title='Lottiefiles'
+                                        >https://lottiefiles.com/</a></div>
                                 </div>
                             </div>
                             <div className='col-md-5'>
