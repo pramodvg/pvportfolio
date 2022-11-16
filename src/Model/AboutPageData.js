@@ -6,7 +6,7 @@ export default function aboutData(){
             },
             {
                 title: "Android Application Development :",
-                description: "Hi, my name is Pramod and I am a Web and Mobile Application Developer. I have over 2 years of experience in this fields in which I have Developed many Android Applications like Fitness App, Video Status App, Live Cricket Score App apartfrom this I have developed many small Tools apps which is usefull daily tasks. I have bachlors degree of Bachlors Of Computer Application (BCA) from Sutex Bank College in India."
+                description: "Hi, my name is Pramod and I am a Web and Mobile Application Developer. I have over 2 years of experience in this fields in which I have Developed many Android Applications like Fitness App, Video Status App, Live Cricket Score App apartfrom this I have developed many small Tools apps which is usefull daily tasks. Implemented Data Binding, View Binding, View Model, Live Data, Room Data Persistence, Paging, Work Manager, Navigation, LifeCycle aware components. Worked with Kotlin Coroutines, Dependency Injection With Dagger 2, Networking With Retrofit 2, Unit Testing"
             },
             {
                 title: "Web Application Development :",
