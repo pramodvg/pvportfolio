@@ -15,7 +15,7 @@ export default function PortfolioItem({ props }) {
 
     return (
 
-        <div className='col-md-4 col-sm-4' onClick={() => openInNewTab(props.author)}>
+        <div className='col-md-4 col-sm-12' onClick={() => openInNewTab(props.author)}>
             <div className='portfolio_card'>
                 <div className='port-content'>
                     <img src={props.imglink} className='img-fluid' />

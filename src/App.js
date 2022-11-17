@@ -5,6 +5,7 @@ import Service from './Component/Layouts/Service/service'
 import Portfolio from './Component/Layouts/Portfolio/Portfolio'
 import ContactMe from './Component/Layouts/Contact/Contactme'
 import Footer from './Component/Layouts/Footer/footer'
+import Education from './Component/Layouts/Education/education'
 // import { Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Toolbar />
       <Home />
       <About />
+      <Education/>
       <Service />
       <Portfolio />
       <ContactMe />

@@ -26,7 +26,8 @@ export default function Service() {
         autoplay: true,
         animationData: animationData,
         rendererSettings: {
-            preserveAspectRatio: "xMidYMid slice"
+            preserveAspectRatio: "xMidYMid slice",
+            className: "lottie-svg-class"
         }
     };
     return (
@@ -46,6 +47,7 @@ export default function Service() {
                                         options={defaultOptions}
                                         height={500}
                                         width={500}
+
                                     />
                                     {/* <img
                                         src='/pvportfolio/Photos/service.png'
