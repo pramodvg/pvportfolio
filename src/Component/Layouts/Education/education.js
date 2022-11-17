@@ -14,12 +14,12 @@ export default function education() {
                         <div className='border-horizontal'>&nbsp;</div>
                     </div>
                     <div className='educationDetails'>
-                        <div className="selectBox selectBox1">
-                            <div class="clgBox" onClick={() => openInNewTab("https://www.conestogac.on.ca/")}>
+                        <div className="selectBox">
+                            <div className="clgBox" onClick={() => openInNewTab("https://www.conestogac.on.ca/")}>
                                 <img src="/pvportfolio/Photos/appicon.png" alt="" />
                                 <h3>Conestoga College</h3>
                             </div>
-                            <div class="clgBox" onClick={() => openInNewTab("https://www.vnsgu.ac.in/")}>
+                            <div className="clgBox" onClick={() => openInNewTab("https://www.vnsgu.ac.in/")}>
                                 <img src="/pvportfolio/Photos/vnsgu.jpg" alt="" />
                                 <h3>V.N.S.G.U University</h3>
                             </div>
@@ -35,14 +35,14 @@ export default function education() {
                             <div className="detailBody">
                                 <h3>Mobile Solutions Development</h3>
                                 <h5>topics</h5>
-                                <div class="topic">
-                                    <div class="topicDiv"><span>Web Technology (MERN)</span></div>
-                                    <div class="topicDiv"><span>Android Application</span></div>
-                                    <div class="topicDiv"><span>Java/Kotlin</span></div>
-                                    <div class="topicDiv"><span>Database development</span></div>
-                                    <div class="topicDiv"><span>Swift</span></div>
-                                    <div class="topicDiv"><span>C#</span></div>
-                                    <div class="topicDiv"><span>Javascript</span></div>
+                                <div className="topic">
+                                    <div className="topicDiv"><span>Web Technology (MERN)</span></div>
+                                    <div className="topicDiv"><span>Android Application</span></div>
+                                    <div className="topicDiv"><span>Java/Kotlin</span></div>
+                                    <div className="topicDiv"><span>Database development</span></div>
+                                    <div className="topicDiv"><span>Swift</span></div>
+                                    <div className="topicDiv"><span>C#</span></div>
+                                    <div className="topicDiv"><span>Javascript</span></div>
                                 </div>
                             </div>
                         </div>
