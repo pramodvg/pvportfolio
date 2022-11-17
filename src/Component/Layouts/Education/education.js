@@ -5,7 +5,7 @@ export default function education() {
         window.open(url, '_blank', 'noopener,noreferrer');
     };
     return (
-        <section id="home-education-section">
+        <section id='home-education-section'>
             <div id='education-section-box'>
                 <div className='container'>
                     <div className='heading-horizontal text-center'>
@@ -14,35 +14,35 @@ export default function education() {
                         <div className='border-horizontal'>&nbsp;</div>
                     </div>
                     <div className='educationDetails'>
-                        <div className="selectBox">
-                            <div className="clgBox" onClick={() => openInNewTab("https://www.conestogac.on.ca/")}>
+                        <div className='selectBox'>
+                            <div className='clgBox' onClick={() => openInNewTab("https://www.conestogac.on.ca/")}>
                                 <img src="/pvportfolio/Photos/appicon.png" alt="" />
                                 <h3>Conestoga College</h3>
                             </div>
-                            <div className="clgBox" onClick={() => openInNewTab("https://www.vnsgu.ac.in/")}>
-                                <img src="/pvportfolio/Photos/vnsgu.jpg" alt="" />
+                            <div className='clgBox' onClick={() => openInNewTab("https://www.vnsgu.ac.in/")}>
+                                <img src='/pvportfolio/Photos/vnsgu.jpg' alt="" />
                                 <h3>V.N.S.G.U University</h3>
                             </div>
                         </div>
                         <div className='education-right-box'>
-                            <div className="detailHeader">
-                                <img src="/pvportfolio/Photos/appicon.png" alt="" />
+                            <div className='detailHeader'>
+                                <img src='/pvportfolio/Photos/appicon.png' alt="" />
                                 <div>
                                     <h3> Conestoga Collage </h3>
                                     <span>(May 2021 - August 2022)</span>
                                 </div>
                             </div>
-                            <div className="detailBody">
+                            <div className='detailBody'>
                                 <h3>Mobile Solutions Development</h3>
                                 <h5>topics</h5>
-                                <div className="topic">
-                                    <div className="topicDiv"><span>Web Technology (MERN)</span></div>
-                                    <div className="topicDiv"><span>Android Application</span></div>
-                                    <div className="topicDiv"><span>Java/Kotlin</span></div>
-                                    <div className="topicDiv"><span>Database development</span></div>
-                                    <div className="topicDiv"><span>Swift</span></div>
-                                    <div className="topicDiv"><span>C#</span></div>
-                                    <div className="topicDiv"><span>Javascript</span></div>
+                                <div className='topic'>
+                                    <div className='topicDiv'><span>Web Technology (MERN)</span></div>
+                                    <div className='topicDiv'><span>Android Application</span></div>
+                                    <div className='topicDiv'><span>Java/Kotlin</span></div>
+                                    <div className='topicDiv'><span>Database development</span></div>
+                                    <div className='topicDiv'><span>Swift</span></div>
+                                    <div className='topicDiv'><span>C#</span></div>
+                                    <div className='topicDiv'><span>Javascript</span></div>
                                 </div>
                             </div>
                         </div>
