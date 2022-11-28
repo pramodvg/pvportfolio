@@ -196,8 +196,8 @@ ul.navbar-nav > li {
   -o-transform: translateX(-50%);
 }
 .home-btn-hire {
-  background-color: #ffb633;
-  color: white;
+  background-color: transparent;
+  color: transparent;
   width: 200px;
   height: 60px;
   margin-top: 10px;
