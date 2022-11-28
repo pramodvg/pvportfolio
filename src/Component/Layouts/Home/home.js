@@ -17,7 +17,7 @@ export default function home() {
                                         id='hirebtn'
                                         name='submit'
                                         type='submit'
-                                    >Hire Me</button>
+                                    ></button>
                                 </form>
 
                             </div>
