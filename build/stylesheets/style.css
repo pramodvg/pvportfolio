@@ -196,6 +196,7 @@ ul.navbar-nav > li {
   -o-transform: translateX(-50%);
 }
 .home-btn-hire {
+  background: transparent;
   width: 200px;
   height: 60px;
   margin-top: 10px;
