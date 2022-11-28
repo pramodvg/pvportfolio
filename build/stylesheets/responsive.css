@@ -98,7 +98,8 @@
   }
   #home-myavtar {
     height: 220px;
-    width: 320px;
+    width: 220px;
+    top: 0;
   }
 
   /* form box */

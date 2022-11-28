@@ -27,7 +27,7 @@ export default function Service() {
         animationData: animationData,
         rendererSettings: {
             preserveAspectRatio: "xMidYMid slice",
-            className: "lottie-svg-class"
+            className: "img-fluid"
         }
     };
     return (
@@ -45,8 +45,7 @@ export default function Service() {
                                 <div className='service-left-icon'>
                                     <Lottie
                                         options={defaultOptions}
-                                        height={500}
-                                        width={500}
+                                       
 
                                     />
                                     {/* <img
