@@ -196,7 +196,7 @@ ul.navbar-nav > li {
   -o-transform: translateX(-50%);
 }
 .home-btn-hire {
-  background-color: transparent;
+  background-color: #ffb633;
   color: white;
   width: 200px;
   height: 60px;
@@ -236,7 +236,7 @@ ul.navbar-nav > li {
 }
 
 /* hire me button */
-:where( .home-btn-download):hover  {
+:where(.home-btn-hire, .home-btn-download):hover  {
   transition: all 200ms linear;
   border: 2px solid #ffb633;
   background-color: white;

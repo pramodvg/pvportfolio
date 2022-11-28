@@ -45,8 +45,6 @@ export default function Service() {
                                 <div className='service-left-icon'>
                                     <Lottie
                                         options={defaultOptions}
-                                       
-
                                     />
                                     {/* <img
                                         src='/pvportfolio/Photos/service.png'

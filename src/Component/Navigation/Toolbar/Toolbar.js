@@ -17,7 +17,7 @@ export default function Toolbar() {
             </button><br /> */}
             <div className="footer-links text-center">
                 <a href='https://github.com/pramodvg' target="_blank"><i className='fa fa-github'></i>Github</a>
-                <a href='https://www.linkedin.com/in/pramodv997' target="_blank"><i className='fa fa-linkedin'></i>LinkedIn</a>
+                <a href='https://www.linkedin.com/in/pramod-vaghasia-2641a919a' target="_blank"><i className='fa fa-linkedin'></i>LinkedIn</a>
             </div>
             {/* <div className='collapse navbar-collapse' id='mynavigation'>
                 <ul className='navbar-nav ml-auto'>
